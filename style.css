@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  color: #007acc;
+}
+
+/* Styling the chatbot container */
+.chat-text {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling Tables in Chatbot Responses */
+.chat-text table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.chat-text th, .chat-text td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.chat-text th {
+  background-color: #007acc;
+  color: white;
+}
+
+.chat-text tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Styling Links inside Chatbot */
+.chat-text a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.chat-text a:hover {
+  text-decoration: underline;
+}
+
+/* Optional: For monospace text dividers */
+.chat-text p {
+  font-family: monospace;
+  color: #555;
+}
